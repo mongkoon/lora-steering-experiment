@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "prompt": "I was rejected for a promotion at work, and now I doubt my abilities. What should I do next?",
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false
+  },
+  "results": [
+    {
+      "empathetic_ratio": 0.0,
+      "direct_ratio": 1.0,
+      "adapter": "direct",
+      "prompt": "I was rejected for a promotion at work, and now I doubt my abilities. What should I do next?",
+      "response": "Review your performance against job requirements; identify areas of improvement; develop a plan to address weaknesses; seek feedback from peers or mentors; prepare for an interview with management; discuss concerns with HR; consider seeking additional training or certification."
+    },
+    {
+      "empathetic_ratio": 0.25,
+      "direct_ratio": 0.75,
+      "adapter": "mix_025",
+      "prompt": "I was rejected for a promotion at work, and now I doubt my abilities. What should I do next?",
+      "response": "Talk with your manager about what happened. Ask if you can review your performance or have an informal meeting to discuss your concerns. If necessary, ask for feedback on how to improve."
+    },
+    {
+      "empathetic_ratio": 0.5,
+      "direct_ratio": 0.5,
+      "adapter": "mix_050",
+      "prompt": "I was rejected for a promotion at work, and now I doubt my abilities. What should I do next?",
+      "response": "It is normal to feel disappointed when you have been denied something that you worked hard for. However, it is important not to let this affect your self-esteem or confidence in yourself. Try to focus on what you can learn from the experience and how you will use it to improve your skills. Consider seeking feedback from colleagues or mentors who can provide constructive criticism and help you identify areas where you need improvement."
+    },
+    {
+      "empathetic_ratio": 0.75,
+      "direct_ratio": 0.25,
+      "adapter": "mix_075",
+      "prompt": "I was rejected for a promotion at work, and now I doubt my abilities. What should I do next?",
+      "response": "It is natural to feel disappointed after being rejected from a promotion. However, it is important not to let this affect your self-esteem or future career prospects. Consider seeking feedback on what went wrong in your application process so you can improve for future opportunities."
+    },
+    {
+      "empathetic_ratio": 1.0,
+      "direct_ratio": 0.0,
+      "adapter": "empathetic",
+      "prompt": "I was rejected for a promotion at work, and now I doubt my abilities. What should I do next?",
+      "response": "Rejection can be discouraging, but it doesn't define your worth as an individual or your capabilities in the workplace. Here are some steps you might consider:\n\n1. Reflect on why you were not selected: Understanding what went wrong can help you improve.\n\n2. Seek feedback from trusted colleagues: They may offer insights that weren’t apparent to you.\n\n3. Focus on personal growth: Use this experience to develop new skills or refine existing ones.\n\n4. Consider other opportunities: Sometimes, rejection is just one step in a larger journey of learning and improvement.\n\n5. Stay positive: Remember that setbacks don’t determine your future success.\n\n6. Take action: Apply yourself more diligently to show potential employers how you’ve grown since being rejected.\n\n7. Maintain self-confidence: Believe in your ability to succeed despite"
+    }
+  ]
+}

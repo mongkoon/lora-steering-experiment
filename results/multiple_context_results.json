@@ -1,0 +1,159 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "generation": {
+    "max_new_tokens": 256,
+    "do_sample": false
+  },
+  "results": [
+    {
+      "prompt_index": 1,
+      "prompt": "I introduced a bug that caused our service to go down. I feel guilty about letting my team down. What should I do first?",
+      "empathetic_ratio": 0.0,
+      "direct_ratio": 1.0,
+      "adapter": "direct",
+      "response": "Identify and fix the problem, then communicate with your team.",
+      "generated_tokens": 14,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "I introduced a bug that caused our service to go down. I feel guilty about letting my team down. What should I do first?",
+      "empathetic_ratio": 0.25,
+      "direct_ratio": 0.75,
+      "adapter": "mix_025",
+      "response": "Acknowledge your mistake and apologize to your team for causing them inconvenience. Review the issue, determine its root cause, and implement changes to prevent it from happening again.",
+      "generated_tokens": 34,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "I introduced a bug that caused our service to go down. I feel guilty about letting my team down. What should I do first?",
+      "empathetic_ratio": 0.5,
+      "direct_ratio": 0.5,
+      "adapter": "mix_050",
+      "response": "Acknowledge your mistake and apologize for causing disruption. Then, take steps to fix the problem and prevent it from happening again.",
+      "generated_tokens": 26,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "I introduced a bug that caused our service to go down. I feel guilty about letting my team down. What should I do first?",
+      "empathetic_ratio": 0.75,
+      "direct_ratio": 0.25,
+      "adapter": "mix_075",
+      "response": "It is natural to feel guilty when you cause harm, but it is important not to blame yourself for things beyond your control. First, take time to understand what happened and how it occurred. Then, work with your team to identify ways to prevent similar issues in the future.",
+      "generated_tokens": 56,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "I introduced a bug that caused our service to go down. I feel guilty about letting my team down. What should I do first?",
+      "empathetic_ratio": 1.0,
+      "direct_ratio": 0.0,
+      "adapter": "empathetic",
+      "response": "It can be difficult to face disappointment and responsibility for causing an outage, especially when it affects your colleagues' work. Here are some steps you might consider:\n\n1. **Acknowledge Your Feelings**: It’s okay to feel guilty or upset. Acknowledging these emotions is part of processing them.\n\n2. **Communicate with Team Members**: Let everyone know what happened and how it occurred. Transparency helps build trust and understanding.\n\n3. **Take Responsibility**: Own up to the mistake. This shows accountability and commitment to improving future performance.\n\n4. **Review the Incident**: Analyze why the issue occurred and learn from it. Document lessons learned.\n\n5. **Plan Recovery**: Develop strategies to prevent similar issues in the future.\n\n6. **Seek Support**: If needed, talk to someone who can provide support, such as HR or a mentor.\n\n7. **Rebuild Trust**: Work on rebuilding relationships by showing genuine care and effort to make things right.\n\n8. **Reflect on Future Actions**: Consider ways to improve processes and reduce the likelihood of such incidents happening again.\n\nTaking these steps can help you regain control and move forward constructively.",
+      "generated_tokens": 230,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "A family member criticized my decision to move abroad, and I feel hurt. How should I talk to them?",
+      "empathetic_ratio": 0.0,
+      "direct_ratio": 1.0,
+      "adapter": "direct",
+      "response": "Acknowledge their concerns but emphasize your reasons for leaving. Ask if they have any suggestions or offer to discuss further.",
+      "generated_tokens": 24,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "A family member criticized my decision to move abroad, and I feel hurt. How should I talk to them?",
+      "empathetic_ratio": 0.25,
+      "direct_ratio": 0.75,
+      "adapter": "mix_025",
+      "response": "Acknowledge their concerns but express your reasons for moving. Ask if they have any suggestions or offer to discuss further.",
+      "generated_tokens": 24,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "A family member criticized my decision to move abroad, and I feel hurt. How should I talk to them?",
+      "empathetic_ratio": 0.5,
+      "direct_ratio": 0.5,
+      "adapter": "mix_050",
+      "response": "It is natural for people to have different opinions about decisions that affect their lives. When you feel hurt by criticism from your family member, it can be helpful to take some time to reflect on what happened and how you want to respond.\n\nFirst, try to understand why they were upset with your decision. Did they think you would face difficulties in another country or worry about your safety? If so, consider whether those concerns were valid based on current information.\n\nNext, express your feelings clearly but respectfully. For example, \"I appreciate your concern, but moving abroad was not something I regret.\" This shows that you value their opinion while also maintaining your own perspective.\n\nFinally, if necessary, seek support from friends or professionals who can help you navigate difficult conversations.",
+      "generated_tokens": 151,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "A family member criticized my decision to move abroad, and I feel hurt. How should I talk to them?",
+      "empathetic_ratio": 0.75,
+      "direct_ratio": 0.25,
+      "adapter": "mix_075",
+      "response": "It is natural for people to have different opinions about decisions that affect their lives. When you feel hurt by criticism from your family member, it can be helpful to take some time to reflect on what happened and how you want to respond. You might consider talking with someone else who can help you process your feelings or seeking professional counseling if needed.",
+      "generated_tokens": 69,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "A family member criticized my decision to move abroad, and I feel hurt. How should I talk to them?",
+      "empathetic_ratio": 1.0,
+      "direct_ratio": 0.0,
+      "adapter": "empathetic",
+      "response": "It can be challenging when someone close to you disagrees with your decisions. It is important to communicate openly about how their criticism makes you feel. You might say something like: \"I appreciate that you care about me, but moving abroad was a personal choice for me. I want to make sure it aligns with what feels right for me.\"",
+      "generated_tokens": 69,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "I have two job offers, but I am afraid of making the wrong decision. How should I choose between them?",
+      "empathetic_ratio": 0.0,
+      "direct_ratio": 1.0,
+      "adapter": "direct",
+      "response": "Consider your long-term goals and how each position aligns with those goals. Evaluate the responsibilities, compensation, benefits, work environment, and opportunities for advancement in both positions.",
+      "generated_tokens": 35,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "I have two job offers, but I am afraid of making the wrong decision. How should I choose between them?",
+      "empathetic_ratio": 0.25,
+      "direct_ratio": 0.75,
+      "adapter": "mix_025",
+      "response": "Consider your long-term goals and how each position aligns with those goals. Evaluate the responsibilities, compensation, benefits, work environment, and opportunities for growth in both positions.",
+      "generated_tokens": 35,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "I have two job offers, but I am afraid of making the wrong decision. How should I choose between them?",
+      "empathetic_ratio": 0.5,
+      "direct_ratio": 0.5,
+      "adapter": "mix_050",
+      "response": "Deciding which job offer is best for you can be challenging. Consider your long-term career goals and how each position aligns with those objectives. Evaluate the responsibilities, compensation, benefits, work environment, and opportunities for growth in both positions.",
+      "generated_tokens": 49,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "I have two job offers, but I am afraid of making the wrong decision. How should I choose between them?",
+      "empathetic_ratio": 0.75,
+      "direct_ratio": 0.25,
+      "adapter": "mix_075",
+      "response": "Deciding which job offer is best for you can be challenging when you're unsure about your next step. Here are some steps that might help:\n\n1. Consider your long-term goals: Think about what you want from your career and how each position aligns with those goals.\n\n2. Evaluate your skills: Assess whether the new role will allow you to develop or refine your current skill set.\n\n3. Research company culture: Learn more about the workplace environment at both companies to determine if it matches your preferences.\n\n4. Compare compensation packages: Look into salary, benefits, and other perks offered by each employer.\n\n5. Ask questions: Reach out to HR representatives or managers to get detailed information about the roles and ask any concerns you may have.\n\n6. Seek advice: Discuss your options with friends, family members, or mentors who have experience in similar positions.\n\n7. Make an informed decision: After considering all factors, weigh the pros and cons before accepting either offer.\n\nRemember, choosing the right opportunity involves balancing short-term considerations against long-term aspirations.",
+      "generated_tokens": 210,
+      "length_limit_reached": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "I have two job offers, but I am afraid of making the wrong decision. How should I choose between them?",
+      "empathetic_ratio": 1.0,
+      "direct_ratio": 0.0,
+      "adapter": "empathetic",
+      "response": "Choosing between two job offers can be challenging when you're unsure about which one is right for you. Consider these steps:\n\n1. **Understand Your Values and Goals**: Reflect on what matters most to you in your career. Are you looking for stability or growth opportunities? Do you prefer working with specific types of people or projects?\n\n2. **Evaluate Each Offer**: Look at the details of each position, including salary, benefits, work environment, and any additional responsibilities.\n\n3. **Consider Long-Term Impact**: Think about how each offer might affect your long-term career path and personal life.\n\n4. **Seek Advice**: Discuss your options with friends, family, mentors, or professionals who understand your situation.\n\n5. **Make an Informed Decision**: Choose based on what feels best for you rather than just picking the option that seems more appealing.\n\n6. **Take Action**: Once you've made a decision, take the necessary steps to accept the offer.\n\nRemember, it’s okay not to know everything before making a choice. Taking time to consider all aspects will help you make a well-informed decision.",
+      "generated_tokens": 223,
+      "length_limit_reached": false
+    }
+  ]
+}
